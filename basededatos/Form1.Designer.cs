@@ -52,7 +52,6 @@
             label1.Size = new Size(94, 20);
             label1.TabIndex = 1;
             label1.Text = "Identificador";
-           // label1.Click += label1_Click;
             // 
             // label2
             // 
@@ -69,6 +68,7 @@
             txtId.Name = "txtId";
             txtId.Size = new Size(125, 27);
             txtId.TabIndex = 3;
+            txtId.TextChanged += txtId_TextChanged;
             // 
             // txtNombre
             // 
